@@ -65,17 +65,17 @@ class FifthStep extends React.Component {
     return <Fifth />;
   }
 }
-class SixthStep extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      sixthStep: "third step here"
-    };
-  }
-  render() {
-    return <Sixth />;
-  }
-}
+// class SixthStep extends React.Component {
+//   constructor(props) {
+//     super(props);
+//     this.state = {
+//       sixthStep: "third step here"
+//     };
+//   }
+//   render() {
+//     return <Sixth />;
+//   }
+// }
 
 var steps = [
   { stepName: "Summary", component: FirstStep },
@@ -83,7 +83,7 @@ var steps = [
   { stepName: "Education", component: ThirdStep },
   { stepName: "Skills", component: FourthStep },
   { stepName: "Additional Info", component: FifthStep },
-  { stepName: "Finalize", component: SixthStep }
+  // { stepName: "Finalize", component: SixthStep }
 ];
 
 class Wizard extends React.Component {

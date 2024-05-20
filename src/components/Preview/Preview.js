@@ -1,5 +1,5 @@
 import React from "react";
-import Header from "../Header/Header";
+import HeaderLogged from "../Header/Header-logged";
 import Footer from "../Footer/Footer";
 import Resume from "../Resume/Resume";
 import Container from 'react-bootstrap/Container';
@@ -11,7 +11,7 @@ import Button from 'react-bootstrap/Button';
 function Preview() {
   return (
     <>
-      <Header />
+      <HeaderLogged />
 
       <div className="p-5 bg-primary">
         <Container>

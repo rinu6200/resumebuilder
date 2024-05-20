@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Header from "../Header/Header";
+import HeaderLogged from "../Header/Header-logged";
 import Footer from "../Footer/Footer";
 import Wizard from "../Wizard/wizard";
 import Container from 'react-bootstrap/Container';
@@ -10,7 +10,7 @@ function Create() {
 
   return (
     <>
-      <Header />
+      <HeaderLogged />
 
       <div className="p-5 bg-primary">
         <Container>

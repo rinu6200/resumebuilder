@@ -16,171 +16,103 @@ function Resume() {
 
 
 
-      <div className="bg-white shadow-lg">
-        <section id="header" className="p-3 bg-dark">
-          <Row>
-            <Col>
-              <Image src={ResumeImg} roundedCircle width={250} />
-            </Col>
-            <Col>
-              <h1 class="text-white text-uppercase">Steve Doe</h1>
-              <div class="text-white">Full Stack Developer</div>
-            </Col>
-            <Col>
-              <ul class="list-unstyled text-white">
-                <li class="mb-2"><i class="bi bi-envelope"></i> steve.doe@website.com</li>
-                <li><i class="bi bi-phone"></i> 0123 456 78900</li>
-              </ul>
-            </Col>
-          </Row>
-        </section>
+      <div className="bg-white shadow-lg p-3">
+      <Row className=" justify-content-between mb-5">
+        <Col>
+        <h3>RAVIKUMAR HIREMATH </h3></Col>
+        <Col className="text-end">
+        <h5>+91 97432 17925</h5>
+        <h5>ravikumar.h@glowtouch.com</h5>
+        </Col>
+      </Row>
+      <p className="mb-5">Experienced Service Delivery Professional with a strong background in Customer Support industry.
+Skilled in leading cross-functional teams, fostering client relationships, and implementing strategies to
+optimize service delivery and enhance customer satisfaction. Exceptional communicator with a focus
+on aligning business objectives with service delivery excellence.</p>
+<h4 className="mb-3">Key Skills</h4>
+<ul className="list-unstyled ps-4 mb-5">
+<li>➢ Strong leadership and team management abilities</li>
+<li>➢ Strategic thinker with a focus on continuous improvement</li>
+<li>➢ Customer-centric approach to service delivery</li>
+<li>➢ Good at Performance Metrics Analysis</li>
+<li>➢ Ability to analyse data and metrics to drive informed decisions</li>
+<li>➢ Good at Conflict Resolution</li>
+<li>➢ Excellent negotiation and influencing skills</li>
+<li>➢ Proficient in ServiceNow, JIRA, SalesForce, Pega Genesis Cloud, Tableau</li>
+<li>➢ Working knowledge of Azure Cloud Services</li>
+</ul>
+<h4 className="mb-3">Professional Experience</h4>
+<h5>GlowTouch Technologies Pvt. Ltd (From Aug 2009 till date)</h5>
+<h6 className="mb-4">Team Leader (Feb 2022 - Present)</h6>
+<ul className="lps-4 mb-5">
+<li>Working on ServiceNow, JIRA, Polaris, SalesForce, Pega Genesis Cloud, Tableau,
+CSES
+</li><li>Creating and updating Release Incident Management using ServiceNow tool
+</li><li>Ensuring performance of services within agreed Service Level Agreements (SLAs)
+</li><li>Experience with JIRA environments with ability to create JIRA workflow
+</li><li>Managing Various Atlassian Tools like, Confluence, Service Desk
+</li><li>Assisted in screening and troubleshooting issues in PEGA tool
+</li><li>Supporting end users on Salesforce functionality
+</li><li>Generating KPIs using Tableau and providing feedbacks on time
+</li><li>Using vDeck/cPanel/OPS/Foundation platforms
+</li><li>Taking the responsibility for the entire team and its performance
+</li><li>Work with random agents to establish and reach their goals Taking One on One
+session with agents if needed</li>
+</ul>
 
-        <div className="p-md-5 p-3">
+<h6>Team Leader (Feb 2022 - Present)</h6>
+<ul className="lps-4 mb-5">
+<li>Monitoring performance of support employees (ticket, chat)
+</li><li>Assisting customer service, technical support, sales and server health staff
+</li><li>Training new customer service agents
+</li><li>Ensuring that all servers and resources are up and running, trying to solve all ongoing issues
+or escalating to the Data Center
+</li><li>Taking care of high priority issues and ensuring that the support offered is as per the SLA
+</li><li>Handling services recommendation for customers that need a professional advice
+</li><li>Taking decisions related to policy exceptions</li>
+</ul>
+<h6>Senior Administrator (January 2013 to July 2019)</h6>
 
+<ul className="lps-4 mb-5">
+<li>Worked as Senior Administrator in Migration of hosting companies.
+</li><li>Training and mentoring Junior resources and helping them understand the domain and
+issues.
+</li><li>Fixing WordPress, Opencart, Weebly, WebsiteBuilder, Drupal issues
+</li><li>Achieved 4.83 (out of 5) Customer Satisfaction Rating (CSR)</li>
+</ul>
+<h6>Technical Support Executive (January 2011 to January 2013)</h6>
 
-          <section id="summary" className="mb-5">
-            <h5 class="text-uppercase fw-bold pb-2 mb-0">Career Summary</h5>
-            <hr />
-            <p class="mb-0">Summarise your career here. Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
-          </section>
+<ul className="lps-4 mb-5">
+<li>Worked as Live Technical Chat Support agent.
+</li><li>Research client's issues in a timely manner and follow up with the customer with
+recommendations and action plans.
+</li><li>Provided speedy, knowledgeable customer support to help customers build and maintain a
+successful web presence.
+</li><li>Supported customers with online billing and account issues. Researched issues on various
+website applications, database, email clients
+</li><li>Worked on SSL installation and issues.
+</li><li>Managed and granted WordPress user permissions</li>
+</ul>
+<h6>Customer Support Executive (August 2009 to January 2011)</h6>
 
-          <Row>
-            <Col md={9} className="pe-5">
-              <section id="work">
-                <h5 class="text-uppercase fw-bold pb-2 mb-0">Work Experience</h5>
-                <hr />
+<ul className="lps-4 mb-5">
+<li>Email Support- Installed WordPress, Joomla, Drupal for customers.
+</li><li>Consolidated daily, weekly and monthly reports.
+</li><li>Upgraded and downgraded new application when needed</li>
+</ul>
+<h4 className="mb-3">Education</h4>
 
-                <div className="border-start ps-5">
+<ul className="lps-4 mb-5">
+<li>Bachelor of Science, from Kuvempu University (2008-2011)</li>
+</ul>
 
-                  <article class="pb-5">
-                    <div class="mb-2">
-                      <div class="d-flex flex-column flex-md-row position-relative">
-                        <i class="bi bi-arrow-right-circle-fill position-absolute top-0 start-0 translate-middle mt-2 h4 mb-0 ms-n5"></i>
-                        <h6 class="fw-bold mb-1">Lead Developer</h6>
-                        <div class="ms-auto">Startup Hub</div>
-                      </div>
-                      <div class="small text-muted">2023 - Present</div>
-                    </div>
-                    <div class="py-3">
-                      <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.</p>
-                      <h6 class="fw-bold mb-1">Achievements:</h6>
-                      <p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                      <ul>
-                        <li>Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.</li>
-                        <li>At vero eos et accusamus et iusto odio dignissimos.</li>
-                        <li>Blanditiis praesentium voluptatum deleniti atque corrupti.</li>
-                        <li>Maecenas tempus tellus eget.</li>
-                      </ul>
-                      <h6 class="fw-bold mb-1">Technologies used:</h6>
-                      <div className="d-grid d-md-flex gap-2">
-                        <Badge bg="secondary">Angular</Badge>
-                        <Badge bg="secondary">Python</Badge>
-                        <Badge bg="secondary">jQuery</Badge>
-                        <Badge bg="secondary">Webpack</Badge>
-                        <Badge bg="secondary">HTML</Badge>
-                        <Badge bg="secondary">PostgresSQL</Badge>
-                      </div>
-                    </div>
-                  </article>
+<h4 className="mb-3">Additional Qualifications</h4>
 
-                  <article class="pb-5">
-                    <div class="mb-2">
-                      <div class="d-flex flex-column flex-md-row position-relative">
-                        <i class="bi bi-arrow-right-circle-fill position-absolute top-0 start-0 translate-middle mt-2 h4 mb-0 ms-n5"></i>
-                        <h6 class="fw-bold mb-1">Senior Software Developer</h6>
-                        <div class="ms-auto">Google</div>
-                      </div>
-                      <div class="small text-muted">2019 - 2023</div>
-                    </div>
-                    <div class="py-3">
-                      <p>Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel.</p>
-                      <h6 class="fw-bold mb-1">Achievements:</h6>
-                      <p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident.</p>
-                      <ul>
-                        <li>Lorem ipsum dolor sit amet, 80% consectetuer adipiscing elit.</li>
-                        <li>At vero eos et accusamus et iusto odio dignissimos.</li>
-                        <li>Blanditiis praesentium voluptatum deleniti atque corrupti.</li>
-                        <li>Maecenas tempus tellus eget.</li>
-                      </ul>
-                      <h6 class="fw-bold mb-1">Technologies used:</h6>
-                      <div className="d-grid d-md-flex gap-2">
-                        <Badge bg="secondary">React</Badge>
-                        <Badge bg="secondary">Webpack</Badge>
-                        <Badge bg="secondary">HTML</Badge>
-                        <Badge bg="secondary">PostgresSQL</Badge>
-                      </div>
-                    </div>
-                  </article>
-                </div>
-              </section>
-            </Col>
-            <Col md={3}>
-              <section id="skill" className="mb-5">
-                <h5 class="text-uppercase fw-bold pb-2 mb-0">Skills & Tools</h5>
-                <hr />
-                <h6 class="fw-bold mb-1">Frontend</h6>
-                <small class="mb-1">Angular</small>
-                <ProgressBar now={60} variant="primary" style={{ height: '5px' }} className="mb-2" />
-                <small class="mb-1">React</small>
-                <ProgressBar now={40} variant="primary" style={{ height: '5px' }} className="mb-2" />
-                <small class="mb-1">JavaScript</small>
-                <ProgressBar now={50} variant="primary" style={{ height: '5px' }} className="mb-2" />
-                <small class="mb-1">Node.js</small>
-                <ProgressBar now={60} variant="primary" style={{ height: '5px' }} className="mb-2" />
-                <small class="mb-1">HTML/CSS/SASS/LESS</small>
-                <ProgressBar now={90} variant="primary" style={{ height: '5px' }} className="mb-2" />
-              </section>
-
-              <section id="education" className="mb-5">
-                <h5 class="text-uppercase fw-bold pb-2 mb-0">Education</h5>
-                <hr />
-                <ul class="list-unstyled">
-                  <li class="mb-2">
-                    <div class="fw-bold">MSc in Computer Science</div>
-                    <div class="">University College London</div>
-                    <div class="small text-muted">2013 - 2014</div>
-                  </li>
-                  <li>
-                    <div class="fw-bold">BSc Maths and Physics</div>
-                    <div class="">Imperial College London</div>
-                    <div class="small text-muted">2010 - 2013</div>
-                  </li>
-                </ul>
-              </section>
-
-
-              <section id="awards" className="mb-5">
-                <h5 class="text-uppercase fw-bold pb-2 mb-0">Awards</h5>
-                <hr />
-                <ul class="list-unstyled">
-                  <li class="mb-2"><div className="fw-bold"><i class="bi bi-trophy-fill text-muted"></i> Award Name Lorem </div><span className="text-muted">Award desc goes here, ultricies nec, pellentesque eu, pretium quis, sem.</span></li>
-                  <li class="mb-2"><div className="fw-bold"><i class="bi bi-trophy-fill text-muted"></i> Award Name  </div><span className="text-muted">Award desc tricies nec, pellentesque eu, pretium quis, sem.</span></li>
-                </ul>
-              </section>
-
-              <section id="language" className="mb-5">
-                <h5 class="text-uppercase fw-bold pb-2 mb-0">Language</h5>
-                <hr />
-                <ul class="list-unstyled">
-                  <li class="mb-2">English <small className="text-muted">(Native)</small></li>
-                  <li class="mb-2">French  <small className="text-muted">(Professional)</small></li>
-                  <li class="mb-2">Spanish  <small className="text-muted">(Professional)</small></li>
-                </ul>
-              </section>
-
-              <section id="interests" className="mb-5">
-                <h5 class="text-uppercase fw-bold pb-2 mb-0">Interests</h5>
-                <hr />
-                <ul class="list-unstyled">
-                  <li class="mb-2">Climbing</li>
-                  <li class="mb-2">Snowboarding</li>
-                  <li class="mb-2">Cooking</li>
-                </ul>
-              </section>
-
-            </Col>
-          </Row>
-        </div>
+<ul className="lps-4 mb-5">
+<li>Hardware & Network Engineering Course in Goal Information Technology.
+</li><li>PC Hardware, Basic Networking Certification
+</li><li>MCSA (Microsoft Certified System Administrator)
+</li><li>CCNA (Cisco Certified Network Associate)</li></ul>
       </div>
 
 

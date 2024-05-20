@@ -1,7 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import DataTable from 'react-data-table-component';
-import Header from "../Header/Header";
+import HeaderLogged from "../Header/Header-logged";
 import Footer from "../Footer/Footer";
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -10,6 +10,7 @@ import FloatingLabel from 'react-bootstrap/FloatingLabel';
 import Form from 'react-bootstrap/Form';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 
+const Button = () => <button type="button" className="btn btn-primary text-nowrap"><i class="bi bi-eye"></i></button>;
 
 const columns = [
   {
@@ -26,6 +27,12 @@ const columns = [
     name: 'Phone',
     selector: row => row.tel,
     sortable: true,
+  },
+  {
+    name: 'View Resume',
+    button: true,
+    cell: () => <Button>View Resume</Button>,
+    selector: row => row.action,
   },
 ];
 
@@ -131,7 +138,7 @@ function Dashboard() {
 
   return (
     <>
-      <Header />
+      <HeaderLogged />
 
       <div className="p-5 bg-primary">
         <Container>
@@ -159,7 +166,6 @@ function Dashboard() {
             <DataTable
               columns={columns}
               data={records}
-              selectableRows
               pagination
             />
 

@@ -26,7 +26,7 @@ function First() {
                 <h3 className="mb-0">Let’s start with your header</h3>
                 <p className="small text-muted mb-5">Include your full name and at least one way for employers to reach you.</p>
                 <Row>
-                    <Col md="auto" className="text-center">
+                    {/* <Col md="auto" className="text-center">
 
 
                         <div className="mb-2 position-relative">
@@ -37,7 +37,7 @@ function First() {
                         <p className="small text-muted">Add a photo to your resume</p>
                         <label for="upload" className="btn btn-outline-primary mb-3">Upload Photo</label>
 
-                    </Col>
+                    </Col> */}
                     <Col><Row className="mb-md-3">
                         <Form.Group as={Col} md={6} controlId="">
                             <FloatingLabel controlId="" label="First Name" className="mb-3">

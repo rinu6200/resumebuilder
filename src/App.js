@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from "./components/Home/Home";
+import HomeLogged from "./components/Home/HomeLogged";
 import Login from "./components/Login/Login";
 import Signup from "./components/Signup/Signup";
 import Dashboard from "./components/Dashboard/Dashboard";
@@ -21,6 +22,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path='/' element={<Home />}></Route>
+        <Route path='/home-logged' element={<HomeLogged />}></Route>
         <Route path='/login' element={<Login />}></Route>
         <Route path='/signup' element={<Signup />}></Route>
         <Route path='/dashboard' element={<Dashboard />}></Route>

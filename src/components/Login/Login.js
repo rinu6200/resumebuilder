@@ -47,7 +47,7 @@ function Login() {
                     </Form.Group>
 
                     <div className="d-grid mb-3">
-                      <Button variant="primary" as={Link} to="/" className="p-3">Sign in</Button>
+                      <Button variant="primary" as={Link} to="/home-logged" className="p-3">Sign in</Button>
                     </div>
                     <Form.Group className="text-center text-muted">
                       Don't have an account? <Link to="/signup" >Create an account</Link>
