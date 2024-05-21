@@ -4,8 +4,14 @@ import Navbar from 'react-bootstrap/Navbar';
 import Image from 'react-bootstrap/Image';
 import Logo from '../../assets/img/logo-white.svg';
 import Dropdown from 'react-bootstrap/Dropdown';
+import { useLocation } from "react-router-dom";
 
 function HeaderLogged() {
+
+  const location = useLocation();
+  const { pathname } = location;
+  const splitLocation = pathname.split("/");
+
   return (
     <Navbar expand="lg" bg="primary" data-bs-theme="dark" fixed="top">
       <Container>
@@ -13,8 +19,8 @@ function HeaderLogged() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="/home-logged">Home</Nav.Link>
-            <Nav.Link href="/dashboard">Dashboard</Nav.Link>
+            <Nav.Link href="/home-logged" className={splitLocation[1] === "home-logged" ? "active" : ""}>Home</Nav.Link>
+            <Nav.Link href="/dashboard" className={splitLocation[1] === "dashboard" ? "active" : ""}>Dashboard</Nav.Link>
             <div className="vr" />
             <Dropdown>
       <Dropdown.Toggle id="dropdown-basic">
